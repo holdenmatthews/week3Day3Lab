@@ -1,0 +1,61 @@
+header {
+    background-color: rgb(209, 209, 209);
+    height: 100px;
+    display: flex;
+}
+
+#menu {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(102, 135, 253);
+    margin: 20px;
+}
+
+#paragraphs {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    margin: 10px;
+    font-size: small;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.color-band {
+    height: 200px;
+}
+
+#sec1 {
+    background-color: rgb(102, 135, 253);
+}
+
+#sec2 {
+    background-color: aquamarine;
+}
+
+#sec3 {
+    background-color: rgb(196, 225, 151);
+}
+
+footer {
+    background-color: rgb(247, 247, 86);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#help {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-top: 125px;
+    position: fixed;
+    bottom: 25px;
+}
